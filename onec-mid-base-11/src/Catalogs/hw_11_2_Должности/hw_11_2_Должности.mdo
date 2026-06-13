@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d44bba4b-5d08-4f3d-9265-2e0cf8d13f7d">
+  <producedTypes>
+    <objectType typeId="ae49978c-26c4-41a7-9b82-3c8f58030ac8" valueTypeId="f08d2cd4-6f8e-4da2-9f0d-03374741ad0e"/>
+    <refType typeId="f63a8a18-a5ad-4d41-87e2-f5d35d059fd4" valueTypeId="a568cfdf-5d1c-4ee8-a3ce-e9430236f7a0"/>
+    <selectionType typeId="b3f58856-4f1f-49e7-b9d0-f2c9c24ce20a" valueTypeId="2f2d8c9a-f16b-4f72-9cdf-cdccd45cf6c9"/>
+    <listType typeId="fea7c266-deef-4919-b986-d0845ff9debc" valueTypeId="e3334a3a-b650-4ab5-b4f1-1fe57f93edaa"/>
+    <managerType typeId="73dd3eb8-ef90-4415-a55f-8d5beafe270f" valueTypeId="1c3a9efb-5450-4aa8-9f8f-7fa2cb2e7d04"/>
+  </producedTypes>
+  <name>hw_11_2_Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.hw_11_2_Должности.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.hw_11_2_Должности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Должности</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
